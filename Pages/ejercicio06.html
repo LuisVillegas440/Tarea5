@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../CSS/ejercicio01.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form action="">
+      <section class="parent">
+        <h1>Multiplicación de dos números por sumas sucesivas</h1>
+        <div class="caja">
+          <label for="numero1"
+            >Ingresar numero 1:<input type="number" id="numero1" class="numero"
+          /></label>
+        </div>
+        <div class="caja">
+          <label for="numero2"
+            >Ingresar numero 2:<input type="number" id="numero2" class="numero"
+          /></label>
+        </div>
+
+        <div class="caja">
+          <button type="button" class="boton" onclick="multiplicacion()">
+            Presentar
+          </button>
+        </div>
+        <div class="explicacion">
+          <h3>
+            1) for (let i = 0; i < numero2; i++) itera numero2 veces. <br />2)
+            resultado += numero1 suma numero1 a resultado en cada iteración.
+          </h3>
+        </div>
+        <p>El resultado es:</p>
+        <label id="resultado" class="resultado"></label>
+      </section>
+    </form>
+    <script src="../Javascript/ejercicio06.js"></script>
+  </body>
+</html>

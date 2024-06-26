@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../CSS/ejercicio01.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div>
+      <section class="parent">
+        <h1>El promedio de los números de un arreglo</h1>
+        <div class="caja">
+          <label for="numero1"
+            >Ingresar numeros:<input type="number" id="numero1" class="numero"
+          /></label>
+        </div>
+        <pre>[<span id="arreglo"></span>]</pre>
+        <div class="caja">
+          <button type="button" class="boton" onclick="promedio()">
+            Presentar
+          </button>
+        </div>
+        <div class="explicacion">
+          <h3>
+            1) for (let i = 0; i < numeros.length; i++) itera a través del arreglo.
+            <br>2) suma += numeros[i] suma cada número al total.<br>3) let promedio = suma / numeros.length calcula el promedio.
+
+          </h3>
+        </div>
+        <p>El resultado es:<label id="resultado"></label></p>
+        
+        
+      </section>
+    </div>
+    <script src="../Javascript/ejercicio10.js"></script>
+  </body>
+</html>

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../CSS/ejercicio01.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form action="">
+      <section class="parent">
+        <h1>Presentar la serie de Fibonacci de n números</h1>
+        <div class="caja">
+          <label for="numero1"
+            >Ingresar numero:<input type="number" id="numero1" class="numero"
+          /></label>
+        </div>
+        
+
+        <div class="caja">
+          <button type="button" class="boton" onclick="fibonnaci()">
+            Presentar
+          </button>
+        </div>
+        <div class="explicacion">
+          <h3>
+            1) console.log(a) y console.log(b) imprimen los dos primeros números de la 
+            serie.<br>2) for (let i = 2; i < n; i++) itera desde 2 hasta n - 1.
+            <br>3) let c = a + b calcula el siguiente número de la serie.<br>4) a = b y b = c actualizan los valores para la siguiente iteración.
+          </h3>
+        </div>
+        <p>El resultado es:</p>
+        <label id="resultado" class="resultado"></label>
+        
+      </section>
+    </form>
+    <script src="../Javascript/ejercicio08.js"></script>
+  </body>
+</html>

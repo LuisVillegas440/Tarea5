@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../CSS/ejercicio01.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div>
+      <section class="parent">
+        <h1> Presentar los números múltiplos de 5 de un arreglo</h1>
+        <div class="caja">
+          <label for="numero1"
+            >Ingresar numeros:<input type="number" id="numero1" class="numero"
+          /></label>
+        </div>
+        <pre>[<span id="arreglo"></span>]</pre>
+        <div class="caja">
+          <button type="button" class="boton" onclick="presentar()">
+            Presentar
+          </button>
+        </div>
+        <div class="explicacion">
+          <h3>
+            1) for (let i = 0; i < numeros.length; i++) itera a través del arreglo.
+            <br>2) if (numeros[i] % 5 === 0) verifica si el número es múltiplo de 5.
+          </h3>
+        </div>
+        <p>El resultado es:</p>
+        <pre><span id="resultado"></span></pre>
+        
+      </section>
+    </div>
+    <script src="../Javascript/ejercicio09.js"></script>
+  </body>
+</html>

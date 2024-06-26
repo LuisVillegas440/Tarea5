@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../CSS/ejercicio01.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form action="">
+      <section class="parent">
+        <h1>Presentar cuántas consonantes hay en una frase</h1>
+        <div class="caja">
+          <label for="numero1"
+            >Ingresar frase:<input type="text" id="numero1" class="numero"
+          /></label>
+        </div>
+        
+
+        <div class="caja">
+          <button type="button" class="boton" onclick="consonante()">
+            Presentar
+          </button>
+        </div>
+        <div class="explicacion">
+          <h3>
+            1) for (let i = 0; i < frase.length; i++) itera a través de la frase.<br>2) if (consonantes.includes(frase[i])) verifica si el carácter es una 
+            consonante.<br>3) contador++ incrementa el contador de consonantes.
+          </h3>
+        </div>
+        <p>El resultado es:</p>
+        <label id="resultado" class="resultado"></label>
+        
+      </section>
+    </form>
+    <script src="../Javascript/ejercicio17.js"></script>
+  </body>
+</html>

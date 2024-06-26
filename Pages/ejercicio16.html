@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../CSS/ejercicio01.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form action="">
+      <section class="parent">
+        <h1>Copiar una frase a otra carácter por carácter excluyendo los dígitos</h1>
+        <div class="caja">
+          <label for="numero1"
+            >Ingresar frase:<input type="text" id="numero1" class="numero"
+          /></label>
+        </div>
+        
+
+        <div class="caja">
+          <button type="button" class="boton" onclick="fraseCaracter()">
+            Presentar
+          </button>
+        </div>
+        <div class="explicacion">
+          <h3>
+            1) for (let i = 0; i < fraseOriginal.length; i++) itera a través de la 
+            frase original.<br>2) if (!isDigit(fraseOriginal[i])) verifica si el carácter no es un dígito.<br>3) nuevaFrase += fraseOriginal[i] agrega el carácter a la nueva frase.
+
+          </h3>
+        </div>
+        <p>El resultado es:</p>
+        <label id="resultado" class="resultado"></label>
+        
+      </section>
+    </form>
+    <script src="../Javascript/ejercicio16.js"></script>
+  </body>
+</html>

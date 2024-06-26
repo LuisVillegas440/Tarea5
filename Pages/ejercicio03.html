@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../CSS/ejercicio01.css" />
+    <title>Document</title>
+  </head>
+  <body>
+   
+    <form action="">
+      <section class="parent">
+        <h1>Verificar si un número es perfecto</h1>
+        <div class="caja">
+          <label for="numero1"
+            >Ingresar numero:<input
+              type="number"
+              id="numero1"
+              class="numero"
+          /></label>
+        </div>
+        
+
+        <div class="caja">
+            <button type="button" class="boton" onclick="perfecto()">Presentar</button>
+            
+          
+          
+        </div>
+        <div class="explicacion">
+        <h3>Explicación:<br>1) for (let i = 1; i < numero; i++) itera desde 1 hasta numero - 1.
+            <br>2) if (numero % i === 0) verifica si i es un divisor.<br>
+            3) suma += i suma los divisores.<br>4) if (suma === numero) verifica si la suma de los divisores es igual al número.
+            </h3>
+        </div>
+        <p>El resultado es:</p>
+            <label id="resultado" class="resultado"></label>
+      </section>
+    </form>
+    <script src="../Javascript/ejercicio03.js"></script>
+  </body>
+</html>
