@@ -10,11 +10,11 @@
     <div>
       <section class="parent">
         <h1>
-          Determinar si un número es par o impar
+        Determinar si un número es positivo, negativo o cero
         </h1>
         <div class="caja">
           <label for="numero1"
-            >Ingresar numeros:<input type="text" id="numero1" class="numero"
+            >Ingresar numeros:<input type="number" id="numero1" class="numero"
           /></label>
         </div>
         <pre>[<span id="arreglo"></span>]</pre>
@@ -26,15 +26,17 @@
         <div class="explicacion">
           <h3>
             Explicación:<br />
-            1) numero % 2 === 0 verifica si el número es divisible por 2.
+            1) numero > 0 verifica si el número es positivo
 
-            <br/>2) Si la condición es verdadera, el número es par.<br>3) Si no, el número es impar
+            <br/>2) numero < 0 verifica si el número es negativo.
+            <br>3) Si ninguna de las condiciones anteriores es verdadera, el número es cero.
           </h3>
         </div>
-        <p>Los numeros pares son:<label id="resultado"></label></p>
-        <p>Los numeros impares son:<label id="resultado2"></label></p>
+        <p>Los numeros positivos son:<label id="resultado"></label></p>
+        <p>Los numeros negativos son:<label id="resultado2"></label></p>
+        <p>El numero es:<label id="resultado3"></label></p>
       </section>
     </div>
-    <script src="../Javascript/ejercicio18.js"></script>
+    <script src="../Javascript/ejercicio20.js"></script>
   </body>
 </html>

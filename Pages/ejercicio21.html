@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../CSS/ejercicio01.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form action="">
+      <section class="parent">
+        <h1>Determinar si un año es bisiesto</h1>
+        <div class="caja">
+          <label for="numero1"
+            >Ingresar año:<input type="number" id="numero1" class="numero"
+          /></label>
+        </div>
+
+        <div class="caja">
+          <button type="button" class="boton" onclick="bisiesto()">
+            Presentar
+          </button>
+        </div>
+        <div class="explicacion">
+          <h3>
+            Explicación:<br />1) Tenemos que verificar que sea divisible para 4. <br />2) Que no sea divisible para 100
+            edad.<br />
+            3) Y que sea divisible para 400<br>4) Al hacer esto verificamos que sea bisiesto.
+          </h3>
+        </div>
+        <p>El resultado es:</p>
+        <label id="resultado" class="resultado"></label>
+      </section>
+    </form>
+    <script src="../Javascript/ejercicio21.js"></script>
+  </body>
+</html>
