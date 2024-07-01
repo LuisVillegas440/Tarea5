@@ -3,6 +3,9 @@
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
 }
+header{
+    background-color: #57040f;
+}
 body{
     display: flex;
     justify-content: left;
